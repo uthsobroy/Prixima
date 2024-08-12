@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Prixima</title>
+    <link rel="stylesheet" href="font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <!-- Topbar -->
+    <div class="topbar py-1">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="d-flex gap-3">
+              <a href="mailto:info@example.com" class="d-flex gap-1 text-white">
+                <i class="bi bi-envelope"></i>info@example.com
+              </a>
+              <a href="tel:123 456-7890" class="d-flex gap-1 text-white">
+                <i class="bi bi-telephone"></i>123 456-7890
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="social-links">
+              <a href="https://www.facebook.com/" class="text-black rounded"
+                ><i class="bi bi-facebook"></i>
+              </a>
+              <a href="https://www.facebook.com/" class="text-black rounded"
+                ><i class="bi bi-twitter"></i>
+              </a>
+              <a href="https://www.instagram.com/" class="text-black rounded"
+                ><i class="bi bi-instagram"></i>
+              </a>
+              <a href="https://www.linkedin.com/" class="text-black rounded"
+                ><i class="bi bi-linkedin"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Nav Start-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="nav">
+      <div class="container">
+        <p class="navbar-brand">Prixima<i class="dot">.</i></p>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#nsc"
+          aria-controls="nsc"
+          aria-expanded="false"
+          aria-label="toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="nsc">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-items">
+              <a class="nav-link active" href="">Home</a>
+            </li>
+            <li class="nav-items">
+              <a class="nav-link" href="">About</a>
+            </li>
+            <li class="nav-items">
+              <a class="nav-link" href="">Service</a>
+            </li>
+            <li class="nav-items">
+              <a class="nav-link" href="">Portfolio</a>
+            </li>
+            <li class="nav-items">
+              <a class="nav-link" href="">Team</a>
+            </li>
+            <li class="nav-items">
+              <a class="nav-link" href="">Reviews</a>
+            </li>
+            <li class="nav-items">
+              <a class="nav-link" href="">Blog</a>
+            </li>
+          </ul>
+          <button
+            type="button"
+            class="btn btn-contact"
+            data-bs-toggle="modal"
+            data-bs-target="#staticBackdrop"
+          >
+            Contact
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Modal start-->
+    <div
+      class="modal fade"
+      id="staticBackdrop"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="staticBackdropLabel">
+              Uthsob Roy
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">Peoplentech</div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary">Open</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Model end -->
+    <!-- Nav End -->
+
+    <!-- Banner slider start-->
+    <section class="banner-slide">
+      <div id="carouselExample" class="carousel slide bg-warning">
+        <div class="carousel-inner">
+          <div
+            class="carousel-item active"
+            style="
+              background: url(img/bg_banner1.jpg) no-repeat center center /
+                cover;
+            "
+          >
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-10 text-white">
+                  <div class="banner-content text-uppercase">
+                    <h6>We craft digital experiances</h6>
+                    <h1 class="my-3">
+                      Design Driven For
+                      <br />
+                      Professionals
+                    </h1>
+                    <div class="my-4">
+                      <button type="button" class="btn btn-brand">
+                        Get Started
+                      </button>
+                      <button type="button" class="btn btn-outline-light ms-3">
+                        Our Work
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="carousel-item"
+            style="
+              background: url(img/bg_banner2.jpg) no-repeat center center /
+                cover;
+            "
+          >
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-10 text-white">
+                  <div class="banner-content text-uppercase">
+                    <h6>design Driven for professional</h6>
+                    <h1 class="my-3">
+                      We craft digital
+                      <br />
+                      experiances
+                    </h1>
+                    <div>
+                      <button type="button" class="btn btn-brand">
+                        Get Started
+                      </button>
+                      <button type="button" class="btn btn-outline-light ms-3">
+                        Our Work
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- Banner slider end -->
+
+    <!-- About start -->
+    <section id="about">
+      <div class="container">
+        <div class="row justify-content-center px-5">
+          <div class="col-lg-6 py-5">
+            <div class="row">
+              <div class="col-12">
+                <div class="info-box">
+                  <img src="img/icon6.png" alt="" />
+                  <div class="ms-4">
+                    <h5>Digital Marketing</h5>
+                    <p>
+                      It is a long established fact that a reader will be
+                      distracted by the readable content of a page
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 mt-4">
+                <div class="info-box">
+                  <img src="img/icon4.png" alt="" />
+                  <div class="ms-4">
+                    <h5>E-mail Marketing</h5>
+                    <p>
+                      It is a long established fact that a reader will be
+                      distracted by the readable content of a page
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 mt-4">
+                <div class="info-box">
+                  <img src="img/icon5.png" alt="" />
+                  <div class="ms-4">
+                    <h5>Buisness Marketing</h5>
+                    <p>
+                      It is a long established fact that a reader will be
+                      distracted by the readable content of a page
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-5 py-5">
+            <img src="img/about.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About end -->
+
+    <!-- Milestone start-->
+    <section id="milestone">
+      <div class="container milestone-content">
+        <div class="row text-center justify-content-center gy-4">
+          <div class="col-lg-2 col-sm-6">
+            <h1>90K+</h1>
+            <p>Happy Clients</p>
+          </div>
+          <div class="col-lg-2 col-sm-6">
+            <h1>45M</h1>
+            <p>Lines of code</p>
+          </div>
+          <div class="col-lg-2 col-sm-6">
+            <h1>190</h1>
+            <p class="mb-0">Total Downloads</p>
+          </div>
+          <div class="col-lg-2 col-sm-6">
+            <h1>380K</h1>
+            <p class="mb-0">YouTube Subscribers</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Milestone end -->
+
+    <!-- Services Start -->
+    <section id="services" class="text-center">
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-12">
+            <div class="intro">
+              <h6>Our Services</h6>
+              <h2>What We Do?</h2>
+              <p class="mx-auto">
+                Contrary to popular belief, Lorem Ipsum is not simply random
+                text. It has roots in a piece of classical Latin literature from
+                45 BC, making it over 2000 years old
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row g-4">
+          <div class="col-lg-4 col-md-6">
+            <div class="service">
+              <img src="img/icon1.png" alt="" />
+              <h5>Digital Marketing</h5>
+              <p>
+                Contrary to popular belief, Lorem Ipsum is not simply random
+                text. It has roots in a piece of classical Latin literature from
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="service">
+              <img src="img/icon2.png" alt="" />
+              <h5>Logo Designing</h5>
+              <p>
+                Contrary to popular belief, Lorem Ipsum is not simply random
+                text. It has roots in a piece of classical Latin literature from
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="service">
+              <img src="img/icon3.png" alt="" />
+              <h5>Buisness consulting</h5>
+              <p>
+                Contrary to popular belief, Lorem Ipsum is not simply random
+                text. It has roots in a piece of classical Latin literature from
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="service">
+              <img src="img/icon4.png" alt="" />
+              <h5>Videography</h5>
+              <p>
+                Contrary to popular belief, Lorem Ipsum is not simply random
+                text. It has roots in a piece of classical Latin literature from
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="service">
+              <img src="img/icon5.png" alt="" />
+              <h5>Brand Identity</h5>
+              <p>
+                Contrary to popular belief, Lorem Ipsum is not simply random
+                text. It has roots in a piece of classical Latin literature from
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="service">
+              <img src="img/icon6.png" alt="" />
+              <h5>Ethical Hacking</h5>
+              <p>
+                Contrary to popular belief, Lorem Ipsum is not simply random
+                text. It has roots in a piece of classical Latin literature from
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Services End -->
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.7.1.js"></script>
+  </body>
+</html>
